@@ -32,6 +32,15 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'quiet_assets', :group => :development
+group :development do
+  gem "better_errors"
+end
+
+gem 'simple_form'
+gem 'devise'
+
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
