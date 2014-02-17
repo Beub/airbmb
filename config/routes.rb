@@ -1,9 +1,13 @@
 Airbmb::Application.routes.draw do
 
+  
+  resources :flats
+
   # get "pages/home"
   root :to => "pages#home"
   devise_for :users
-  
+
+  get "users/:id"  => 'users#profile', as: 'profile'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

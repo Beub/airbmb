@@ -39,7 +39,7 @@ end
 
 gem 'simple_form'
 gem 'devise'
-
+gem 'paperclip'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
