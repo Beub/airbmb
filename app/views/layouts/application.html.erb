@@ -7,8 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+	<%= render 'layouts/navbar'%>
+</div>
 
 <%= yield %>
+
+<script type="text/javascript">
+$('.alert').delay(7000).fadeOut();
+</script>
 
 </body>
 </html>

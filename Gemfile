@@ -21,6 +21,13 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+# Devise
+gem 'devise', '~> 3.2.2'
+
+# Simple Form
+gem 'simple_form', github: 'plataformatec/simple_form'
+gem 'country_select'
+
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 
