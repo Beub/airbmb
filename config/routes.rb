@@ -1,6 +1,8 @@
 Airbmb::Application.routes.draw do
 
+  resources :flats
 
+  get "users/:id" => "users#profile"
   # get "pages/home"
   devise_for :users
   root to: "pages#home"
