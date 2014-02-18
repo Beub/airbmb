@@ -21,12 +21,6 @@ gem 'coffee-rails', '~> 4.0.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
-# Paperclip
-gem 'paperclip'
-
-# Devise
-gem 'devise', '~> 3.2.2'
-
 # Simple Form
 gem 'simple_form', github: 'plataformatec/simple_form'
 gem 'country_select'
@@ -41,6 +35,14 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+group :development do
+  gem "better_errors"
+  gem 'quiet_assets'
+end
+
+gem 'devise'
+gem 'paperclip'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

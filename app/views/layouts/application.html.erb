@@ -9,13 +9,9 @@
 </head>
 <body>
 	<%= render 'layouts/navbar'%>
-</div>
+	<%= yield %>
 
-<%= yield %>
-
-<script type="text/javascript">
-$('.alert').delay(7000).fadeOut();
-</script>
-
+	<p class="notice"><%= notice %></p>
+	<p class="alert"><%= alert %></p>
 </body>
 </html>
